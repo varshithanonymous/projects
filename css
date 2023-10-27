@@ -1,0 +1,38 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif; /* You can change the font */
+}
+
+.container {
+    max-width: 992px; /* Adjust as per your design */
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section {
+    width: 31%; /* Adjust the width for equal distribution */
+    background-color: #f2f2f2; /* Set your desired background color */
+    border: 1px solid #000; /* 1px black border */
+    margin: 10px; /* Adjust for horizontal spacing */
+    padding: 10px;
+    position: relative;
+}
+
+.section-title {
+    background-color: #333; /* Set your desired title background color */
+    color: #fff; /* Set the text color for titles */
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* Add more specific styling for your content and media queries for tablet and mobile views */
